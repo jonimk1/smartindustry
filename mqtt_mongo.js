@@ -23,7 +23,7 @@ mq.on('connect', function(){
 const { MongoClient, ServerApiVersion } = require('mongodb');
 
 //korvaa alla oleva URI-string omalla URI:lla (hae se Mongo Atlaksen Connect-kohdasta, lisää myös oma käyttäjätunnus ja salasana)
-const uri = "mongodb+srv://jonikari_db_user:c6RnzWSewWj87pdw@clusterxxxxx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"; 
+const uri = "mongodb+srv://jonikari_db_user:c6RnzWSewWj87pdw@db1.1dfndjt.mongodb.net/?retryWrites=true&w=majority&appName=db1"; 
 
 const client = new MongoClient(uri, {
   serverApi: {
